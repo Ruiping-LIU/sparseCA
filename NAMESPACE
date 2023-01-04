@@ -1,0 +1,15 @@
+## Import functions we need explicitly, notably for which we define methods:
+importFrom("FactoMineR", CA)
+importFrom("PMA", PMD)
+importFrom("stats", cor)
+#n,p,Dn,Dp,Yn1
+#re.CA
+#index.Col.Weights.dim1,index.Col.Weights.dim2,index.Row.Weights.dim1,index.Row.Weights.dim2
+#index.Col.Score.dim1,index.Col.Score.dim2,index.Row.Score.dim1,index.Row.Score.dim2
+#weightVar
+
+
+export(SCA)
+#useDynLib(SCA)
+exportPattern("^[[:alpha:]]+")
+
