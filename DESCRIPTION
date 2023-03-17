@@ -2,9 +2,10 @@ Package: sparseCA
 Type: Package
 Title: Sparse Correspondence Analysis for Large Contingency Tables
 Version: 0.1.0
-Author: Ruiping Liu, Ndeye Niang-Keita, Gilbert Saporta
+Author: Ruiping Liu
 Maintainer: Ruiping Liu <liuruiping1990@126.com>
-Description: Sparse correspondence analysis (CA) for large contingency tables. Sparse CA remedies to the difficulty of interpreting CA results when the size of the table is large. Since CA is a double weighted PCA or a weighted generalized SVD, we adapt here known sparse versions of these methods with specific developments to obtain orthogonal solutions and a search method for the optimal sparsity level. We distinguish two cases where sparsity is asked for both rows and columns, or only for one set. 
+Description: Sparse correspondence analysis (CA) for large contingency tables, described in Ruiping Liu, Ndeye Niang-Keita, Gilbert Saporta, et al. Advances in Data Analysis and Classification.
+<https://doi.org/10.1007/s11634-022-00531-5>. Sparse CA remedies to the difficulty of interpreting CA results when the size of the table is large. Since CA is a double weighted PCA or a weighted generalized SVD, we adapt here known sparse versions of these methods with specific developments to obtain orthogonal solutions and a search method for the optimal sparsity level. We distinguish two cases where sparsity is asked for both rows and columns, or only for one set. 
 License: GPL (>= 2)
 Encoding: UTF-8
 NeedsCompilation: yes
